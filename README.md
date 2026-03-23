@@ -1,4 +1,4 @@
-# Week 9: Panel Data Demos
+# Week 9: Panel Data Demos 
 
 Teaching demonstrations for **QM 2023 — Statistics II / Data Analytics**, Week 9: Panel Data Architecture.
 
