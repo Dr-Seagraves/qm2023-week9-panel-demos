@@ -15,8 +15,9 @@ from pathlib import Path
 import warnings
 warnings.filterwarnings('ignore')
 
-# Output directory: same folder as this script
-OUTPUT_DIR = Path(__file__).resolve().parent
+# Output directory: a new "figures" folder
+OUTPUT_DIR = Path(__file__).resolve().parent / "figures"
+OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Try to import linearmodels, fall back to statsmodels
 try:

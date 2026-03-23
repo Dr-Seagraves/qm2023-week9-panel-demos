@@ -18,10 +18,7 @@ Teaching demonstrations for **QM 2023 — Statistics II / Data Analytics**, Week
 ## Setup
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate      # macOS/Linux
-# .venv\Scripts\activate       # Windows
-pip install --upgrade pip
+
 pip install -r requirements.txt
 ```
 
