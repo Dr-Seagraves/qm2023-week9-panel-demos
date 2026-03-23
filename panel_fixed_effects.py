@@ -154,7 +154,7 @@ if HAS_LINEARMODELS:
     print(f"  x1_size:    {fe_model.params['x1_size']:.4f} (true: 1.0)")
     print(f"  x2_rnd:     {fe_model.params['x2_rnd']:.4f} (true: 2.0)")
     print(f"  x3_competition: {fe_model.params['x3_competition']:.4f} (true: -1.5)")
-    print(f"  R-squared:  {fe_model.rs_squared:.4f}")
+    print(f"  R-squared:  {fe_model.rsquared:.4f}")
     print(f"  F-statistic: {fe_model.f_statistic.stat:.4f}")
 else:
     # Manual fixed effects using demeaning (LSDV approach)
